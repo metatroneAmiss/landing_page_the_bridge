@@ -6,20 +6,8 @@
 <title>Alternance Traffic Manager – Bac+3 RNCP | Réunion d'information The BRIDGE</title>
 <meta name="description" content="Devenez Traffic Manager en alternance : bootcamp de 3 mois puis alternance pour un titre RNCP Bac+3. Réservez votre place à la réunion d'information gratuite.">
 
-<!-- TRACKING : remplacer G-XXXXXXXXXX par l'ID Google Analytics (GA4) fourni par l'école.
-     Les événements (cta_click, inscription_reunion_info) sont envoyés par script.js via gtag(),
-     ou via dataLayer si Google Tag Manager est utilisé à la place.
-     RGPD : GA4 et Hotjar ne doivent être activés qu'après consentement (bandeau cookies à prévoir). -->
-<!--
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
--->
-<!-- TRACKING : coller ici le script Hotjar (remplacer 0000000 par l'ID du site) -->
+<!-- TRACKING : GA4, Google Ads et Hotjar se configurent dans consent.js (bandeau cookies + Consent Mode v2) -->
+<script src="consent.js"></script>
 
 <link rel="stylesheet" href="style.css">
 </head>
@@ -85,7 +73,7 @@
                 <option value="2026-11-07 10:00">Samedi 7 nov. – 10h00</option>
               </select></div>
           </div>
-          <label class="check"><input type="checkbox" id="rgpd" name="rgpd" required> <span>J'accepte que mes informations soient utilisées pour m'inscrire à la réunion d'information et être contacté(e) à ce sujet. <a href="#">Politique de confidentialité</a></span></label>
+          <label class="check"><input type="checkbox" id="rgpd" name="rgpd" required> <span>J'accepte que mes informations soient utilisées pour m'inscrire à la réunion d'information et être contacté(e) à ce sujet. <a href="confidentialite.html" target="_blank">Politique de confidentialité</a></span></label>
           <!-- Source du lead (remplis automatiquement depuis l'URL par script.js) -->
           <input type="hidden" name="utm_source">
           <input type="hidden" name="utm_medium">
@@ -181,7 +169,7 @@
 <footer>
   <div class="wrap">
     <div>The BRIDGE École-Entreprises – 73 rue Henri Barbusse, 92000 Nanterre</div>
-    <div><a href="#">Mentions légales</a> · <a href="#">Politique de confidentialité</a></div>
+    <div><a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Politique de confidentialité</a> · <a href="#" data-cookies>Gestion des cookies</a></div>
   </div>
 </footer>
 
