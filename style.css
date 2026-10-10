@@ -40,6 +40,7 @@ input[aria-invalid="true"],select[aria-invalid="true"]{border-color:#c0392b}
 .stats .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:36px 20px;text-align:center}
 .stats b{display:block;font-size:2.4rem;line-height:1}
 section.bloc{padding:72px 0}
+section[id]{scroll-margin-top:20px}
 section.bloc.gris{background:var(--gris)}
 h2.titre{text-align:center;font-size:clamp(1.6rem,3vw,2.2rem);max-width:760px;margin:0 auto 14px}
 p.intro{text-align:center;color:var(--doux);max-width:640px;margin:0 auto 40px}
@@ -95,7 +96,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
  header{position:sticky;top:0;z-index:10;box-shadow:0 2px 12px rgba(0,0,0,.3)}
  header .wrap{height:60px;gap:12px}
  header .btn{padding:10px 14px;font-size:.9rem;white-space:nowrap}
- #inscription{scroll-margin-top:76px}
+ #inscription,section[id]{scroll-margin-top:76px}
  .hero{padding:40px 0 48px}
  .hero .wrap{grid-template-columns:1fr;gap:32px}
  .grille,.grille-4{grid-template-columns:repeat(2,1fr)}
