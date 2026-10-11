@@ -1,7 +1,7 @@
 // Bandeau cookies + chargement du tracking (Google Consent Mode v2)
 // À RENSEIGNER : identifiants fournis par l'école (laisser vide tant qu'ils ne sont pas connus)
 var TRACKING = {
-  ga4: '',     // ex. 'G-ABC123XYZ'  (Google Analytics 4)
+  ga4: 'G-SMREHHJEKL', // ex. 'G-ABC123XYZ'  (Google Analytics 4)
   ads: '',     // ex. 'AW-123456789' (balise Google Ads, facultatif si les conversions sont importées depuis GA4)
   hotjar: ''   // ex. '1234567'      (ID du site Hotjar)
 };
