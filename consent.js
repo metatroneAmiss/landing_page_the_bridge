@@ -3,7 +3,7 @@
 var TRACKING = {
   ga4: 'G-SMREHHJEKL', // ex. 'G-ABC123XYZ'  (Google Analytics 4)
   ads: '',     // ex. 'AW-123456789' (balise Google Ads, facultatif si les conversions sont importées depuis GA4)
-  hotjar: ''   // ex. '1234567'      (ID du site Hotjar)
+  contentsquare: 'a6be230f0f648' // ID de balise Contentsquare (ex-Hotjar) : session replay, heatmaps
 };
 
 window.dataLayer = window.dataLayer || [];
@@ -43,19 +43,12 @@ if(idGoogle){
   if(TRACKING.ads){ gtag('config', TRACKING.ads); }
 }
 
-// Hotjar : chargé uniquement après acceptation
-var hotjarCharge = false;
-function chargerHotjar(){
-  if(!TRACKING.hotjar || hotjarCharge){ return; }
-  hotjarCharge = true;
-  (function(h,o,t,j,a,r){
-    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-    h._hjSettings={hjid:+TRACKING.hotjar,hjsv:6};
-    a=o.getElementsByTagName('head')[0];
-    r=o.createElement('script');r.async=1;
-    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-    a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+// Contentsquare (ex-Hotjar) : chargé uniquement après acceptation
+var contentsquareCharge = false;
+function chargerContentsquare(){
+  if(!TRACKING.contentsquare || contentsquareCharge){ return; }
+  contentsquareCharge = true;
+  chargerScript('https://t.contentsquare.net/uxa/' + TRACKING.contentsquare + '.js');
 }
 
 function appliquerConsentement(valeur){
@@ -66,7 +59,7 @@ function appliquerConsentement(valeur){
     ad_personalization: ok,
     analytics_storage: ok
   });
-  if(valeur === 'accepte'){ chargerHotjar(); }
+  if(valeur === 'accepte'){ chargerContentsquare(); }
 }
 
 var choix = lireConsentement();
