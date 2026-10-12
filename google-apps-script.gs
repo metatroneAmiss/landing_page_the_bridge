@@ -1,7 +1,7 @@
 /**
  * Réception des inscriptions de la landing page dans un Google Sheet
  * + envoi d'un e-mail de confirmation à la personne inscrite.
- *
+
  * Installation :
  * 1. Créer un Google Sheet, puis Extensions > Apps Script.
  * 2. Remplacer le contenu de Code.gs par ce fichier, puis enregistrer.
@@ -25,7 +25,7 @@ var EMAIL = {
   actif: true,
   nomExpediteur: 'The BRIDGE École-Entreprises',
   repondreA: '', // adresse de l'équipe admission si elle doit recevoir les réponses (sinon laisser vide)
-  lieu: 'The BRIDGE École-Entreprises – 73 rue Henri Barbusse, 92000 Nanterre',
+  lieu: "En ligne – le lien de connexion vous sera communiqué par l'école avant la réunion",
   duree: 'environ 1 h'
 };
 
@@ -111,7 +111,7 @@ var EMAIL_TEST = '';
 function testerEmail() {
   var destinataire = EMAIL_TEST || Session.getEffectiveUser().getEmail();
   Logger.log('Envoi du test à : ' + destinataire);
-  Logger.log('Résultat : ' + envoyerConfirmation_({ email: destinataire, prenom: 'Test', date_libelle: 'Mardi 13 oct. – 18h30' }));
+  Logger.log('Résultat : ' + envoyerConfirmation_({ email: destinataire, prenom: 'Test', date_libelle: 'Mercredi 14 oct. – 16h30' }));
   Logger.log('E-mails restants aujourd\'hui : ' + MailApp.getRemainingDailyQuota());
 }
 

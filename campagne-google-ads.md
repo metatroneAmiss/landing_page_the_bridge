@@ -115,7 +115,7 @@ gratuit · gratuite · salaire · fiche métier · c'est quoi · définition · 
 | Réserver ma Place | Réunion d'information gratuite | Choisissez votre date | /#inscription |
 
 ### Accroches (max. 25)
-Réunion Gratuite · Titre RNCP Bac+3 · Accessible Dès le Bac · Service Placement · Sans Expérience Requise · Rentrées Fév., Mai, Sept.
+Réunion 100 % en Ligne · Réunion Gratuite · Titre RNCP Bac+3 · Accessible Dès le Bac · Service Placement · Sans Expérience Requise · Rentrées Fév., Mai, Sept.
 
 ### Extrait de site structuré
 **En-tête « Cours » :** Google Ads · Meta Ads · GA4 · SEO · IA Marketing · Stratégie et ROI

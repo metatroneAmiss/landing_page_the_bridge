@@ -40,7 +40,7 @@
     <div class="card" id="inscription">
       <div id="formBloc">
         <h2>Réservez votre place à la réunion d'information</h2>
-        <p class="sub">Gratuit et sans engagement. Choisissez la date qui vous convient.</p>
+        <p class="sub">Gratuit, sans engagement et 100 % en ligne. Choisissez la date qui vous convient.</p>
         <form id="form" novalidate>
           <div class="row">
             <div><label for="prenom">Prénom</label><input id="prenom" name="prenom" required autocomplete="given-name" placeholder="Votre prénom"></div>
@@ -62,15 +62,14 @@
                 <option value="autre">Autre</option>
               </select></div>
             <div><label for="date">Date de la réunion</label>
-              <!-- Dates proposées, à valider avec l'école -->
+              <!-- Rythme officiel de l'école : réunions en ligne tous les mercredis à 16h30 (dates à confirmer avec l'équipe commerciale) -->
               <select id="date" name="date" required>
                 <option value="">Choisissez</option>
-                <option value="2026-10-13 18:30">Mardi 13 oct. – 18h30</option>
-                <option value="2026-10-17 10:00">Samedi 17 oct. – 10h00</option>
-                <option value="2026-10-22 12:30">Jeudi 22 oct. – 12h30</option>
-                <option value="2026-10-27 18:30">Mardi 27 oct. – 18h30</option>
-                <option value="2026-11-04 18:30">Mercredi 4 nov. – 18h30</option>
-                <option value="2026-11-07 10:00">Samedi 7 nov. – 10h00</option>
+                <option value="2026-10-14 16:30">Mercredi 14 oct. – 16h30</option>
+                <option value="2026-10-21 16:30">Mercredi 21 oct. – 16h30</option>
+                <option value="2026-10-28 16:30">Mercredi 28 oct. – 16h30</option>
+                <option value="2026-11-04 16:30">Mercredi 4 nov. – 16h30</option>
+                <option value="2026-11-18 16:30">Mercredi 18 nov. – 16h30</option>
               </select></div>
           </div>
           <label class="check"><input type="checkbox" id="rgpd" name="rgpd" required> <span>J'accepte que mes informations soient utilisées pour m'inscrire à la réunion d'information et être contacté(e) à ce sujet. <a href="confidentialite.html">Politique de confidentialité</a></span></label>
@@ -83,7 +82,7 @@
           <input type="hidden" name="gclid">
           <p class="erreur" id="formErreur" role="alert"></p>
           <button class="btn" type="submit">Je m'inscris à la réunion</button>
-          <p class="mini">Réunion d'environ 1 h · Confirmation envoyée par e-mail</p>
+          <p class="mini">Réunion en ligne d'environ 1 h · Confirmation envoyée par e-mail</p>
         </form>
       </div>
     </div>
