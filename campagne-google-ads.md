@@ -1,6 +1,6 @@
-# Campagne Google Ads – Alternance Traffic Manager
+# Campagne Google Ads – Bootcamp Traffic Manager
 
-**Objectif :** inscriptions à la réunion d'information du bootcamp Traffic Manager (cible : étudiants / alternance)
+**Objectif :** inscriptions à la réunion d'information du **Bootcamp Traffic Manager** (cible : étudiants ; l'alternance est un argument de suite de parcours)
 **Page d'atterrissage :** https://landingpagethebridge.vercel.app/
 **Budget total :** 200 €
 **Conversion suivie :** `inscription_reunion_info` (page merci.html)
@@ -12,8 +12,8 @@
 | Mot-clé | Décision | Pourquoi |
 |---|---|---|
 | formation traffic manager | ✅ Garder | Cœur de cible, intention forte |
-| formation traffic manager alternance | ✅ Garder (prioritaire) | Correspond exactement à la cible « étudiants / alternance » |
-| bootcamp traffic manager | ✅ Garder | Correspond exactement à l'offre |
+| formation traffic manager alternance | ✅ Garder | Les étudiants cherchent souvent une formation avec alternance ; la page la présente comme suite du bootcamp |
+| bootcamp traffic manager | ✅ Garder (prioritaire) | Correspond exactement à l'offre |
 | formation traffic management | ✅ Garder | Variante du mot-clé principal |
 | formation traffic manager en ligne / à distance | ⚠️ Plus tard | Le format à distance n'est pas encore confirmé par l'école ; risque de décevoir l'internaute |
 | formation traffic manager CPF | ⚠️ Plus tard | Le CPF concerne surtout les actifs, pas les étudiants visés par le brief |
@@ -22,7 +22,7 @@
 | formation marketing digital (+ CPF, en ligne) | ❌ Retirer | Très concurrentiel (coût par clic élevé) et trop large pour 200 € |
 | formation acquisition digitale | ⚠️ Plus tard | Large ; à tester seulement s'il reste du budget |
 
-**Mots-clés ajoutés**, plus proches de la cible étudiants :
+**Mots-clés ajoutés**, proches de l'offre et de la cible étudiants :
 - alternance traffic manager
 - traffic manager alternance
 - école traffic manager
@@ -38,15 +38,7 @@
 
 **Type :** Réseau de Recherche uniquement (décocher le Réseau Display et les partenaires du Réseau de Recherche)
 
-### Groupe d'annonces 1 – Alternance Traffic Manager (priorité)
-| Mot-clé | Correspondance |
-|---|---|
-| [alternance traffic manager] | Exacte |
-| "traffic manager alternance" | Expression |
-| "formation traffic manager alternance" | Expression |
-| "école traffic manager" | Expression |
-
-### Groupe d'annonces 2 – Formation / Bootcamp Traffic Manager
+### Groupe d'annonces 1 – Bootcamp / Formation Traffic Manager (priorité)
 | Mot-clé | Correspondance |
 |---|---|
 | [formation traffic manager] | Exacte |
@@ -54,6 +46,15 @@
 | "bootcamp traffic manager" | Expression |
 | "devenir traffic manager" | Expression |
 | "formation traffic manager paris" | Expression |
+
+### Groupe d'annonces 2 – Traffic Manager + alternance (suite du bootcamp)
+| Mot-clé | Correspondance |
+|---|---|
+| [alternance traffic manager] | Exacte |
+| "traffic manager alternance" | Expression |
+| "formation traffic manager alternance" | Expression |
+| "école traffic manager" | Expression |
+
 
 Pas de requête large : avec un petit budget et sans historique de conversions, elle dépense sur des recherches peu pertinentes.
 
@@ -72,9 +73,9 @@ gratuit · gratuite · salaire · fiche métier · c'est quoi · définition · 
 ### Titres (max. 30 caractères)
 | # | Titre | Car. | Épingle |
 |---|---|---|---|
-| 1 | Alternance Traffic Manager | 26 | Position 1 (groupe 1) |
-| 2 | Formation Traffic Manager | 25 | Position 1 (groupe 2) |
-| 3 | Bootcamp Traffic Manager | 24 | |
+| 1 | Bootcamp Traffic Manager | 24 | Position 1 (groupe 1) |
+| 2 | Formation Traffic Manager | 25 | Position 1 (groupe 1) |
+| 3 | Alternance Traffic Manager | 26 | Position 1 (groupe 2) |
 | 4 | Devenez Traffic Manager | 23 | |
 | 5 | Titre RNCP Bac+3 Reconnu | 24 | |
 | 6 | Réunion d'Info Gratuite | 23 | |
@@ -96,7 +97,7 @@ gratuit · gratuite · salaire · fiche métier · c'est quoi · définition · 
 | 3 | Google Ads, Meta Ads, GA4 et IA : apprenez un métier recherché sur des projets concrets. | 88 |
 | 4 | Dès le Bac, sans expérience. Le service placement vous aide à trouver votre alternance. | 87 |
 
-**Chemin d'affichage :** landingpagethebridge.vercel.app / **alternance** / **traffic-manager**
+**Chemin d'affichage :** landingpagethebridge.vercel.app / **bootcamp** / **traffic-manager**
 
 > Épingler seulement le titre principal en position 1 : trop d'épingles réduit la « force de l'annonce ».
 > « Financement jusqu'à 100 % » est l'argument de l'école ; il est repris sur la page (FAQ), ce que Google exige. À valider par l'équipe commerciale.

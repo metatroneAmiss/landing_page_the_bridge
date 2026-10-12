@@ -5,7 +5,7 @@ var FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzCmTml3ogsbAa_ffnf
 
 // Infos de la réunion (page merci + lien Google Agenda) : à adapter avec l'école
 var REUNION = {
-  titre: "Réunion d'information – Alternance Traffic Manager (The BRIDGE)",
+  titre: "Réunion d'information – Bootcamp Traffic Manager (The BRIDGE)",
   lieu: 'The BRIDGE École-Entreprises, 73 rue Henri Barbusse, 92000 Nanterre',
   dureeMinutes: 60
 };

@@ -86,16 +86,16 @@ function envoyerConfirmation_(p) {
       '<div style="background:#0b0b0b;color:#fff;padding:20px 24px;font-weight:bold;font-size:18px">THE BRIDGE <span style="font-weight:normal;opacity:.75">École-Entreprises</span></div>' +
       '<div style="padding:24px;border:1px solid #e3e3e8;border-top:0">' +
       '<p>Bonjour ' + prenom + ',</p>' +
-      '<p>Votre inscription à la <b>réunion d\'information Alternance Traffic Manager</b> est bien confirmée.</p>' +
+      '<p>Votre inscription à la <b>réunion d\'information Bootcamp Traffic Manager</b> est bien confirmée.</p>' +
       '<p style="background:#ffe500;padding:14px 18px;border-radius:8px">' +
       '<b>Date :</b> ' + date + '<br><b>Durée :</b> ' + EMAIL.duree + '<br><b>Lieu :</b> ' + echapper_(EMAIL.lieu) + '</p>' +
-      '<p>Au programme : le métier de Traffic Manager, le bootcamp de 3 mois, l\'alternance et le titre RNCP Bac+3, le financement et les étapes d\'admission. Venez avec vos questions !</p>' +
+      '<p>Au programme : le métier de Traffic Manager, le contenu du bootcamp de 3 mois, le financement, la poursuite en alternance et les étapes d\'admission. Venez avec vos questions !</p>' +
       '<p>Un empêchement ? Répondez simplement à cet e-mail pour changer de date.</p>' +
       '<p>À très bientôt,<br>L\'équipe The BRIDGE École-Entreprises</p>' +
       '</div></div>';
     var options = { name: EMAIL.nomExpediteur, htmlBody: html };
     if (EMAIL.repondreA) { options.replyTo = EMAIL.repondreA; }
-    MailApp.sendEmail(email, 'Votre réunion d\'information Traffic Manager est confirmée',
+    MailApp.sendEmail(email, 'Votre réunion d\'information Bootcamp Traffic Manager est confirmée',
       'Bonjour ' + p.prenom + ', votre inscription à la réunion d\'information du ' + (p.date_libelle || p.date) +
       ' est confirmée. Lieu : ' + EMAIL.lieu + '.', options);
     return 'Oui';
