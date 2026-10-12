@@ -1,162 +1,73 @@
 # Campagne Google Ads – Bootcamp Traffic Manager
 
-**Objectif :** inscriptions à la réunion d'information du **Bootcamp Traffic Manager** (cible : étudiants ; l'alternance est un argument de suite de parcours)
-**Page d'atterrissage :** https://landingpagethebridge.vercel.app/
-**Budget total :** 200 €
-**Conversion suivie :** `inscription_reunion_info` (page merci.html)
+Version complète et mise en page : https://claude.ai/artifact/KxQ6bcu86dRyy5GQ1cYuPG
 
----
+- **Objectif :** un maximum de participants à la réunion d'information du Bootcamp Traffic Manager
+- **Cible :** de l'étudiant au salarié en reconversion, Île-de-France (persona : Camille, 35 ans, reconversion)
+- **Page d'atterrissage :** https://landingpagethebridge.vercel.app/
+- **Budget :** 200 € (20 €/jour, date de fin à J+10)
+- **Conversion :** `inscription_reunion_info` (page merci.html)
+- **Statut :** préparée dans Google Ads (accès lecture seule), création et lancement par l'équipe interne
+- **Réunions :** en ligne, mercredis 16h30 (14, 21, 28 oct., 4 et 18 nov.), à confirmer
 
-## 1. Analyse des mots-clés de départ
-
-| Mot-clé | Décision | Pourquoi |
-|---|---|---|
-| formation traffic manager | ✅ Garder | Cœur de cible, intention forte |
-| formation traffic manager alternance | ✅ Garder | Les étudiants cherchent souvent une formation avec alternance ; la page la présente comme suite du bootcamp |
-| bootcamp traffic manager | ✅ Garder (prioritaire) | Correspond exactement à l'offre |
-| formation traffic management | ✅ Garder | Variante du mot-clé principal |
-| formation traffic manager en ligne / à distance | ⚠️ Plus tard | Le format à distance n'est pas encore confirmé par l'école ; risque de décevoir l'internaute |
-| formation traffic manager CPF | ⚠️ Plus tard | Le CPF concerne surtout les actifs, pas les étudiants visés par le brief |
-| formation SEA / Google Ads / référencement payant | ❌ Retirer | Recherches de formations courtes ou gratuites (Google Skillshop) : budget consommé sans inscriptions |
-| formation Google Ads CPF / certification incluse | ❌ Retirer | Même raison ; « certification incluse » attire les certifications Google gratuites |
-| formation marketing digital (+ CPF, en ligne) | ❌ Retirer | Très concurrentiel (coût par clic élevé) et trop large pour 200 € |
-| formation acquisition digitale | ⚠️ Plus tard | Large ; à tester seulement s'il reste du budget |
-
-**Mots-clés ajoutés**, proches de l'offre et de la cible étudiants :
-- alternance traffic manager
-- traffic manager alternance
-- école traffic manager
-- devenir traffic manager
-- formation traffic manager paris / île de france
-
-> Avec 200 €, il vaut mieux concentrer le budget sur peu de mots-clés très précis que de l'étaler sur des recherches larges.
-> Estimer le coût par clic de chaque mot-clé dans le **Planificateur de mots-clés** de Google Ads avant le lancement.
-
----
-
-## 2. Structure de la campagne
-
-**Type :** Réseau de Recherche uniquement (décocher le Réseau Display et les partenaires du Réseau de Recherche)
-
-### Groupe d'annonces 1 – Bootcamp / Formation Traffic Manager (priorité)
-| Mot-clé | Correspondance |
-|---|---|
-| [formation traffic manager] | Exacte |
-| "formation traffic management" | Expression |
-| "bootcamp traffic manager" | Expression |
-| "devenir traffic manager" | Expression |
-| "formation traffic manager paris" | Expression |
-
-### Groupe d'annonces 2 – Traffic Manager + alternance (suite du bootcamp)
-| Mot-clé | Correspondance |
-|---|---|
-| [alternance traffic manager] | Exacte |
-| "traffic manager alternance" | Expression |
-| "formation traffic manager alternance" | Expression |
-| "école traffic manager" | Expression |
-
-
-Pas de requête large : avec un petit budget et sans historique de conversions, elle dépense sur des recherches peu pertinentes.
-
----
-
-## 3. Mots-clés à exclure (niveau campagne)
-
-gratuit · gratuite · salaire · fiche métier · c'est quoi · définition · offre d'emploi · emploi · recrutement · freelance · mission · stage · cours · pdf · livre · youtube · skillshop · openclassrooms · udemy · coursera · certification google · cpf *(tant que la cible est « étudiants »)*
-
-À compléter chaque jour avec le **rapport des termes de recherche**.
-
----
-
-## 4. Annonces responsives (RSA)
-
-### Titres (max. 30 caractères)
-| # | Titre | Car. | Épingle |
-|---|---|---|---|
-| 1 | Bootcamp Traffic Manager | 24 | Position 1 (groupe 1) |
-| 2 | Formation Traffic Manager | 25 | Position 1 (groupe 1) |
-| 3 | Alternance Traffic Manager | 26 | Position 1 (groupe 2) |
-| 4 | Devenez Traffic Manager | 23 | |
-| 5 | Titre RNCP Bac+3 Reconnu | 24 | |
-| 6 | Réunion d'Info Gratuite | 23 | |
-| 7 | Réservez Votre Place | 20 | |
-| 8 | 3 Mois de Bootcamp Intensif | 27 | |
-| 9 | Alternance de 12 à 36 Mois | 26 | |
-| 10 | Accessible Dès le Bac | 21 | |
-| 11 | Service Placement Alternance | 28 | |
-| 12 | Google Ads, Meta Ads et IA | 26 | |
-| 13 | Financement Jusqu'à 100 % | 25 | |
-| 14 | Campus à Nanterre | 17 | |
-| 15 | École The BRIDGE | 16 | |
-
-### Descriptions (max. 90 caractères)
-| # | Description | Car. |
-|---|---|---|
-| 1 | 3 mois de bootcamp puis 12 à 36 mois d'alternance pour un titre RNCP Bac+3. | 75 |
-| 2 | Réunion d'information gratuite et sans engagement. Choisissez votre date en ligne. | 82 |
-| 3 | Google Ads, Meta Ads, GA4 et IA : apprenez un métier recherché sur des projets concrets. | 88 |
-| 4 | Dès le Bac, sans expérience. Le service placement vous aide à trouver votre alternance. | 87 |
-
-**Chemin d'affichage :** landingpagethebridge.vercel.app / **bootcamp** / **traffic-manager**
-
-> Épingler seulement le titre principal en position 1 : trop d'épingles réduit la « force de l'annonce ».
-> « Financement jusqu'à 100 % » est l'argument de l'école ; il est repris sur la page (FAQ), ce que Google exige. À valider par l'équipe commerciale.
-
----
-
-## 5. Composants (extensions)
-
-### Liens annexes
-| Texte (max. 25) | Description 1 (max. 35) | Description 2 (max. 35) | URL |
-|---|---|---|---|
-| Le Programme | Les compétences enseignées | Google Ads, Meta Ads, SEO, IA | /#programme |
-| Le Parcours en 3 Étapes | Bootcamp puis alternance | Titre RNCP Bac+3 à la clé | /#parcours |
-| Questions Fréquentes | Alternance, financement, admission | Toutes vos réponses | /#faq |
-| Réserver ma Place | Réunion d'information gratuite | Choisissez votre date | /#inscription |
-
-### Accroches (max. 25)
-Réunion 100 % en Ligne · Réunion Gratuite · Titre RNCP Bac+3 · Accessible Dès le Bac · Service Placement · Sans Expérience Requise · Rentrées Fév., Mai, Sept.
-
-### Extrait de site structuré
-**En-tête « Cours » :** Google Ads · Meta Ads · GA4 · SEO · IA Marketing · Stratégie et ROI
-
----
-
-## 6. Paramètres
-
+## Paramètres
 | Paramètre | Réglage |
 |---|---|
-| Zone | Île-de-France, option **« Présence »** (personnes qui se trouvent dans la zone), pas « Intérêt » |
+| Type | Réseau de Recherche uniquement, AI Max désactivé |
+| Zone | Île-de-France, option « Présence » |
 | Langue | Français |
-| Âge (observation) | Suivre les 18-24 et 25-34 ans ; baisser les enchères sur 55 ans et + si nécessaire |
-| Calendrier | Tous les jours ; renforcer le soir et le week-end (créneaux des étudiants) après quelques jours de données |
-| Budget | 20 €/jour pendant 10 jours (200 € au total) |
-| Enchères | Démarrage : **Maximiser les clics** avec un CPC max (ex. 2,50 €) ; après ~15 conversions, passer à **Maximiser les conversions** |
-| Suivi automatique | Activé (gclid, enregistré dans le Google Sheet) |
+| Enchères | Maximiser les clics, CPC max. 2,50 €, sans CPA cible ; puis Maximiser les conversions après ~15 conversions |
+| Âge (observation) | 18-44 ans |
+| Suffixe d'URL finale | `utm_source=google&utm_medium=cpc&utm_campaign=bootcamp_tm&utm_term={keyword}&utm_content={creative}` |
 
-**Suffixe de l'URL finale** (pour retrouver la source de chaque lead dans le Sheet) :
+## Mots-clés (correspondance expression)
+**Groupe 1 – Bootcamp / Formation Traffic Manager (prioritaire)**
 ```
-utm_source=google&utm_medium=cpc&utm_campaign=alternance_tm&utm_term={keyword}&utm_content={creative}
+"formation traffic manager"
+"traffic manager formation"
+"formation traffic management"
+"bootcamp traffic manager"
+"devenir traffic manager"
+"formation chargé d'acquisition"
+"formation acquisition digitale"
+"bootcamp marketing digital"
+"bootcamp marketing"
+```
+**Groupe 2 – Reconversion**
+```
+"reconversion marketing digital"
+"reconversion traffic manager"
+"formation traffic manager cpf"
+```
+**Groupe 3 – Traffic Manager + alternance**
+```
+"alternance traffic manager"
+"traffic manager alternance"
+"formation traffic manager alternance"
+"école traffic manager"
 ```
 
----
+**Écartés :** formation SEA / Google Ads / référencement payant (formations gratuites type Skillshop), formation marketing digital (trop large et cher), … en ligne / à distance (format non confirmé), suggestions « formation du web » (hors cible).
 
-## 7. Mesure des conversions
+## Mots-clés à exclure
+gratuit · gratuite · salaire · fiche métier · c'est quoi · définition · offre d'emploi · emploi · recrutement · freelance · mission · stage · cours · pdf · livre · youtube · skillshop · openclassrooms · udemy · coursera · certification google
 
-1. **GA4** : marquer l'événement `inscription_reunion_info` comme **événement clé**.
-2. **Google Ads** : Outils → Conversions → **Importer** depuis GA4 (ou créer une conversion « chargement de page » sur l'URL contenant `merci.html`).
-3. Vérifier que le **bandeau cookies** est en place (Consent Mode v2) : sans lui, les conversions européennes ne sont pas mesurées.
+## Titres (30 car. max.)
+Bootcamp Traffic Manager *(pos. 1)* · Formation Traffic Manager *(pos. 1 ; « Reconversion Traffic Manager » dans le groupe 2, « Alternance Traffic Manager » dans le groupe 3)* · Votre Futur Métier en 3 Mois · Zéro Expérience ? Aucun Souci · Du Bac au Métier en 3 Mois · Prochaine Réunion : Mercredi · Gratuit, En Ligne, 1 Heure · Apprenez Google Ads en 3 Mois · Lancez Vos 1res Campagnes Ads · Un Métier Qui Recrute · Rejoignez la Prochaine Session · Réunion d'Info Gratuite · Titre RNCP Bac+3 Reconnu · Financement Jusqu'à 100 % · École The BRIDGE
 
----
+## Descriptions (90 car. max.)
+1. 3 mois de bootcamp puis 12 à 36 mois d'alternance pour un titre RNCP Bac+3.
+2. Réunion d'information gratuite et sans engagement. Choisissez votre date en ligne.
+3. Google Ads, Meta Ads, GA4 et IA : apprenez un métier recherché sur des projets concrets.
+4. Dès le Bac, sans expérience. Le service placement vous aide à trouver votre alternance.
 
-## 8. Objectifs chiffrés (estimation à confirmer avec le Planificateur de mots-clés)
+Groupe Reconversion : remplacer 1 et 4 par « Salarié ou en recherche d'emploi ? Changez de métier en 3 mois, financement possible. » et « Formation finançable (CPF, France Travail…) : un conseiller étudie votre situation. »
 
-| Indicateur | Hypothèse |
-|---|---|
-| CPC moyen | 1,50 € à 3 € |
-| Clics | 65 à 130 |
-| Taux de conversion de la page | 5 % à 10 % |
-| Inscriptions | 4 à 13 |
-| Coût par inscription | 15 € à 50 € |
+## Composants
+- **Liens annexes :** Le Programme (/#programme) · Le Parcours en 3 Étapes (/#parcours) · Questions Fréquentes (/#faq) · Réserver ma Place (/#inscription)
+- **Accroches :** Réunion 100 % en Ligne · Réunion Gratuite · Titre RNCP Bac+3 · Accessible Dès le Bac · Service Placement · Sans Expérience Requise · Rentrées Fév., Mai, Sept.
+- **Extrait structuré « Cours » :** Google Ads · Meta Ads · GA4 · SEO · IA Marketing · Stratégie et ROI
+- **Images :** 2 paysages 1200×628, 2 carrés 1200×1200, logo 1200×1200 (photos du site de l'école)
 
-À comparer avec les résultats réels pour la soutenance : CTR, CPC, taux de conversion, coût par lead et taux de présence à la réunion.
+## Objectifs chiffrés (hypothèses)
+CPC 1,50–2,50 € · 80–130 clics · conversion 5–10 % · 4–13 inscriptions · CPA visé ≈ 30 € · taux de présence à mesurer
