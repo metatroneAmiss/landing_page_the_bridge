@@ -96,6 +96,15 @@ function afficherBandeau(){
 
 document.addEventListener('DOMContentLoaded', function(){
   if(!lireConsentement()){ afficherBandeau(); }
+  // Lien « Retour » : revient à la page précédente du site (le formulaire garde sa saisie)
+  document.querySelectorAll('[data-retour]').forEach(function(lien){
+    lien.addEventListener('click', function(e){
+      if(document.referrer.indexOf(location.host) !== -1 && history.length > 1){
+        e.preventDefault();
+        history.back();
+      }
+    });
+  });
   document.querySelectorAll('[data-cookies]').forEach(function(lien){
     lien.addEventListener('click', function(e){
       e.preventDefault();
