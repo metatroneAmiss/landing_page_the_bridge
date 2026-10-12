@@ -1,2 +1,6 @@
 # Document interne de l'école (strictement confidentiel) : ne jamais publier
 *.pdf
+
+# Images de travail (Google Ads, sources) : non publiées, seul le logo sert au site
+images/*
+!images/logo-the-bridge.avif
