@@ -1,6 +1,7 @@
 // Bandeau cookies + chargement du tracking (Google Consent Mode v2)
 // À RENSEIGNER : identifiants fournis par l'école (laisser vide tant qu'ils ne sont pas connus)
 var TRACKING = {
+  gtm: '',     // ex. 'GTM-ABC1234' (Google Tag Manager). Renseigné : GA4 est géré dans GTM, plus ici
   ga4: 'G-SMREHHJEKL', // ex. 'G-ABC123XYZ'  (Google Analytics 4)
   ads: '',     // ex. 'AW-123456789' (balise Google Ads, facultatif si les conversions sont importées depuis GA4)
   contentsquare: 'a6be230f0f648' // ID de balise Contentsquare (ex-Hotjar) : session replay, heatmaps
@@ -34,9 +35,15 @@ function chargerScript(src){
   document.head.appendChild(s);
 }
 
-// GA4 et Google Ads : chargés dans tous les cas, ils respectent le consentement (Consent Mode)
+// Google Tag Manager : le conteneur gère GA4 (et les autres balises Google) en respectant le consentement
+if(TRACKING.gtm){
+  window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+  chargerScript('https://www.googletagmanager.com/gtm.js?id=' + TRACKING.gtm);
+}
+
+// Sans GTM : GA4 et Google Ads chargés directement, ils respectent le consentement (Consent Mode)
 var idGoogle = TRACKING.ga4 || TRACKING.ads;
-if(idGoogle){
+if(!TRACKING.gtm && idGoogle){
   chargerScript('https://www.googletagmanager.com/gtag/js?id=' + idGoogle);
   gtag('js', new Date());
   if(TRACKING.ga4){ gtag('config', TRACKING.ga4); }

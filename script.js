@@ -12,10 +12,11 @@ var REUNION = {
 
 window.dataLayer = window.dataLayer || [];
 
-// Envoi d'un événement : via gtag (GA4) s'il est chargé, sinon via dataLayer (Google Tag Manager)
+// Envoi d'un événement : via dataLayer si Google Tag Manager est utilisé, sinon via gtag (GA4)
 function track(name, params){
   params = params || {};
-  if(typeof window.gtag === 'function'){
+  var avecGtm = window.TRACKING && window.TRACKING.gtm;
+  if(!avecGtm && typeof window.gtag === 'function'){
     window.gtag('event', name, params);
   } else {
     var data = {event:name};
